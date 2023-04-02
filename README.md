@@ -7,6 +7,7 @@ To use this sketch, you will need the following:
 - An Arduino board with I2C interface (We used Arduino Uno)
 - A 16x2 LCD display with I2C interface 
 - MAX485 TTL- RS485
+- Potentiometer 
 
 To set up the hardware, connect the I2C pins of the LCD display to the corresponding pins on the Arduino board. Connect the LED pin of the LCD display to a digital output pin on the Arduino board, and connect the Enable pin of the LCD display to another digital output pin on the Arduino board.
 
