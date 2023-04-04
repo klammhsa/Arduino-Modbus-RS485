@@ -19,7 +19,7 @@ This Arduino project controls the position of a servo motor using a potentiomete
 - Upload the code to the transmitter and receiver Arduino boards.
 - Rotate the potentiometer to change the position of the servo motor.
 
-#### wiring diagram:
+#### Wiring diagram:
 The following wiring diagram displays the connections between the various components used in the project:
 
 
