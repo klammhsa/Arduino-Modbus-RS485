@@ -29,7 +29,7 @@ The following wiring diagram displays the connections between the various compon
 The transmitter code reads the value of the potentiometer using the 'analogRead' function then scales the value to an angle between 0 and 180. Finally, it sends the angle to the receiver Arduino board through the Serial communication protocol.
 The receiver code listens for data on the Serial communication protocol. It reads the angle sent by the transmitter Arduino board using the 'Serial.read' function. It then sets the position of the servo motor to the corresponding angle using the 'myservo.write' function.
 
-![Alt text](Images/LCD-display.jpg)
+![Alt text](Images/servo-control.jpg)
 
 ## Project 2: 
 This sketch demonstrates how to display sensor readings on a 16x2 LCD display connected to an Arduino board using I2C interface. The sensor readings are received through a serial port from a connected device, and are displayed on the LCD screen. The sketch uses the LiquidCrystal_I2C library to control the LCD display.
@@ -46,7 +46,7 @@ When a valid data packet is received, the sketch parses it to extract the slave 
 Finally, the sketch toggles the Enable pin to enable or disable communication with the connected device.
 Note that the sketch expects incoming data to be in a specific format, and may not work with different protocol.
 
-![Alt text](Images/servo-control.jpg)
+![Alt text](Images/LCD-display.jpg)
 
 ### Customization
 To customize this sketch for your own use, you can modify the following:
