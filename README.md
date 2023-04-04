@@ -22,13 +22,14 @@ This Arduino project controls the position of a servo motor using a potentiomete
 #### Wiring diagram:
 The following wiring diagram displays the connections between the various components used in the project:
 
-![Alt text](Images/wiring-diagram.jpg)
+![Alt text](Images/wiring-diagram.png)
 
 
 ### How It Works
 The transmitter code reads the value of the potentiometer using the 'analogRead' function then scales the value to an angle between 0 and 180. Finally, it sends the angle to the receiver Arduino board through the Serial communication protocol.
 The receiver code listens for data on the Serial communication protocol. It reads the angle sent by the transmitter Arduino board using the 'Serial.read' function. It then sets the position of the servo motor to the corresponding angle using the 'myservo.write' function.
 
+![Alt text](Images/LCD-display.jpg)
 
 ## Project 2: 
 This sketch demonstrates how to display sensor readings on a 16x2 LCD display connected to an Arduino board using I2C interface. The sensor readings are received through a serial port from a connected device, and are displayed on the LCD screen. The sketch uses the LiquidCrystal_I2C library to control the LCD display.
@@ -44,6 +45,8 @@ The sketch initializes the LCD display and sets up two digital output pins for t
 When a valid data packet is received, the sketch parses it to extract the slave ID and sensor reading value. If the slave ID matches the expected value (1 or 2), the sketch updates the LCD display with the corresponding sensor reading value.
 Finally, the sketch toggles the Enable pin to enable or disable communication with the connected device.
 Note that the sketch expects incoming data to be in a specific format, and may not work with different protocol.
+
+![Alt text](Images/servo-control.jpg)
 
 ### Customization
 To customize this sketch for your own use, you can modify the following:
