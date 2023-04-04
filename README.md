@@ -21,7 +21,7 @@ This Arduino project controls the position of a servo motor using a potentiomete
 
 #### Wiring diagram:
 The following wiring diagram displays the connections between the various components used in the project:
-
+![Alt text](Images/LCD-display.jpg)
 
 
 ### How It Works
