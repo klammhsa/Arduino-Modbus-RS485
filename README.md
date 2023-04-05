@@ -55,5 +55,5 @@ To customize this sketch for your own use, you can modify the following:
 - The serial communication protocol used by the connected device, which is currently hardcoded in the sketch
 
 ## Contributors
-- Kiana Hooshanfar
-- Mahsa Kalam
+- Kiana Hooshanfar [Github](https://github.com/K-Hooshanfar)
+- Mahsa Kalam [Github](https://github.com/klammhsa)
